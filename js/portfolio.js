@@ -229,7 +229,7 @@
                             }
                         }
                     };
-                    
+
                     xmlhttp.open("POST","/email.php",true);
                     xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
                     xmlhttp.send(form_vars);
@@ -254,7 +254,7 @@
                 resizeSection();
             });
 
-            monitorContactForm();
+            // monitorContactForm();
 
             var sectionId = setNavigationFromHash(window.location.hash);
             sizeSection(sectionId);
